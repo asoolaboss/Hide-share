@@ -1,0 +1,27 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs
+*.log
+
+# VS Code directory
+.vscode/
+
+# Other temporary files
+*.tmp
+*.bak

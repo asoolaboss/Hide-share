@@ -1,4 +1,4 @@
-# No Seen Win 👻
+# No Seen Win
 
 A Windows utility program that allows you to hide specific application windows from screen-sharing software (like Discord, OBS, Zoom, etc.). The tool works by injecting a DLL and utilizing the `SetWindowDisplayAffinity` Windows API.
 

@@ -28,9 +28,8 @@ BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam) {
 }
 
 int main() {
-
+  
     printf("                    No seen Win                     \n");
-
     
     char dllPath[MAX_PATH];
     GetFullPathNameA("hook.dll", MAX_PATH, dllPath, NULL);

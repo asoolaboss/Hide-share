@@ -28,6 +28,8 @@ BOOL CALLBACK EnumWindowsProc(HWND hwnd, LPARAM lParam) {
 }
 
 int main() {
+  
+    printf("                    No seen Win                     \n");
     
     char dllPath[MAX_PATH];
     GetFullPathNameA("hook.dll", MAX_PATH, dllPath, NULL);
@@ -48,9 +50,7 @@ int main() {
     }
 
     printf("Currently running applications:\n");
-    printf("----------------------------------------------------\n");
     EnumWindows(EnumWindowsProc, 0);
-    printf("----------------------------------------------------\n");
     printf("Enter the number of the application: ");
     
     int choice;
